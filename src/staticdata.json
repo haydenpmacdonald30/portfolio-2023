@@ -1,0 +1,20 @@
+{
+    "cells": [
+        {
+            "title": "Github",
+            "image": "images/github-sign.png"
+        },
+        {
+            "title": "Linkedin",
+            "image": "images/linkedin.png"
+        },
+        {
+            "title": "Figma",
+            "image": "images/logo-figma.png"
+        },
+        {
+            "title": "Behance",
+            "image": "images/behance.png"
+        }
+    ]
+}
