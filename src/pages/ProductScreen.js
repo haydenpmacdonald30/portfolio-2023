@@ -9,7 +9,7 @@ const ProductScreen = (props) => {
   
 
     return (
-        <div>
+        <ProductScreenContainer>
             
             <Redirect>
                 <Link className='btn btn-dark my-3' to='/'>
@@ -35,58 +35,54 @@ const ProductScreen = (props) => {
                     </ul>
           
                 <TextContainer>
-               
-
                     <h1>Solution</h1>
                     <p>{product.design_solution}</p>
-                    
                 </TextContainer>
-            
-
                   
                 <SideBySide>
-                <div>
-                <img src={product.image_two} alt='placeholder' fluid />   
+                    <div>
+                        <img src={product.image_two} alt='placeholder' fluid />   
 
-                </div>
-                <div> 
-                <img src={product.image_three} alt='placeholder' fluid />  
-                </div>
+                    </div>
+                    <div> 
+                        <img src={product.image_three} alt='placeholder' fluid />  
+                    </div>
                 </SideBySide>
                 
                 <TextContainer>
-                <h2>Areas to improve through market research</h2>
-                <p>{product.market_research}</p>
-                
+                    <h2>Areas to improve through market research</h2>
+                    <p>{product.market_research}</p>
                 </TextContainer>
 
                 <SideBySide>
-                <div>
-                <img src={product.image_four} alt='placeholder' fluid />     
-                </div>
-                <div> 
-                <img src={product.image_five} alt='placeholder' fluid />  
-                </div>
+                    <div>
+                        <img src={product.image_four} alt='placeholder' fluid />     
+                    </div>
+                    <div> 
+                        <img src={product.image_five} alt='placeholder' fluid />  
+                    </div>
                 </SideBySide>
-
-                
             </ImageContainer>
-            
 
             <Redirect>
                 <Link className='btn btn-dark my-3' to='/'>
                     <img src='/images/left-arrow.png' alt='sdfg' /> 
                 </Link>
             </Redirect>            
-        </div>
+        </ProductScreenContainer>
     )
 }
 
 export default ProductScreen
 
+const ProductScreenContainer = styled.div`
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+`
+
 
 const ImageContainer = styled.div`
-    padding: 100px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
@@ -103,6 +99,7 @@ const ImageContainer = styled.div`
         @media (max-width: 720px) {
             grid-template-columns: repeat(1, 1fr);
         }
+        
     p, li {
         letter-spacing: 2px;
         line-height: 2.5;

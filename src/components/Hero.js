@@ -49,7 +49,7 @@ const Hero = () => {
 export default Hero
 
 const HeroContainer = styled.div`
-    background-image: url("https://images.unsplash.com/photo-1507880572231-f85401ce76e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1858&q=80");
+    background-image: url("/images/wallpaper2.jpg");
     height: 1000px;
     background-size: cover;
     background-position: center;

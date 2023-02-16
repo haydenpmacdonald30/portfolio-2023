@@ -26,7 +26,7 @@ const Footer = props => (
                 </FooterImage>
                 <FooterTitle>
                     <p>email</p>
-                    <a>view</a> 
+                    <a href='mailto:haydenpmacdonald@gmail.com'>view</a> 
                 </FooterTitle>
             </FooterGroup>            
         </SectionCellGroup>
