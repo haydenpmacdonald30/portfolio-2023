@@ -96,8 +96,8 @@ const FooterTitle = styled.div`
         border-color: transparent;
         color: white;
         border-radius: 15px;
-        padding: 5px 10px;
-        box-shadow: 0 2px 5px black;
+        padding: 5px 15px;
+        font-size: 10px;
     }
 
     :hover {

@@ -3,7 +3,7 @@ const products = [
     {   
         _id: '1',
         title: 'Storefront remodel',
-        design_goal_1: 'Showcasing the customer product, while also the Cuboh platform.',
+        design_goal_1: 'Showcasing the customer product, while also the ordering platform itself -- and pushing that brand.',
         design_goal_2: 'Having the shopping cart be easily accessible, and editable, even when toggled closed.',
         design_goal_3: 'Providing refinement with the ordering process, and overall app flow.',
         design_solution: 'The app must have an easy-to-use navigation system that allows users to easily browse and find what they are looking for. Ensure that the apps main navigation is clear and consistent throughout the app, making it easy for users to switch between pages. Clear and Concise Menu: The menu should be well-organized, with categories and subcategories that make it easy for users to find the items they want to order. Consider including images of menu items and descriptions to help users make informed decisions.',
@@ -19,9 +19,9 @@ const products = [
     {   
         _id: '2',
         title: 'Ride sharing app',
-        design_goal_1: '',
-        design_goal_2: '',
-        design_goal_3: '',
+        design_goal_1: 'Poviding simplicity when booking a driver, for both ASAP, and scheduled pickups.',
+        design_goal_2: 'Creating a streamlined process for customers to sign up as a customer, or as a driver.',
+        design_goal_3: 'Creating an app flow that is clear and consise, while not overcomplicating steps, and processes.',
         design_solution: '',
         image: '/images/image-1-final.png',
         image_two: '/images/component73.png',

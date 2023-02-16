@@ -135,12 +135,14 @@ max-width: 1000px;
 
 
 const SectionCaption = styled.p`
+
+    text-align: center;
+    
     h1 {
         font-weight: 600;
         font-size: 20px;
         text-transform: uppercase;
         color: #94A4BA;
-        text-align: center;
         letter-spacing: 4px;
     }
   
