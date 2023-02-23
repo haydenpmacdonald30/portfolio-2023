@@ -48,6 +48,20 @@ const products = [
     },
     {   
         _id: '4',
+        title: 'Porsche / Singer mockup',
+        image: '/images/porsche.png',
+        design_goal_1: 'N/A',
+        design_goal_2: 'N/A',
+        design_goal_3: 'N/A',
+        image_two: '/images/placeholder.png',
+        image_three: '/images/placeholder.png', 
+        image_four: '/images/placeholder.png',
+        image_five: '/images/placeholder.png',
+        sitemap: '/images/placeholder.png',
+        key: 4
+    },
+    {   
+        _id: '5',
         title: 'Miscelaneous poster design',
         design_goal_1: 'N/A',
         design_goal_2: 'N/A',
@@ -60,7 +74,7 @@ const products = [
         image_four: '/images/placeholder.png',
         image_five: '/images/placeholder.png',
         sitemap: '/images/placeholder.png',
-        key: 4
+        key: 5
     },
 
 ]
