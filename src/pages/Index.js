@@ -87,6 +87,7 @@ const Index = ({ }) => {
 
             </Group>
             <Footer/>
+       
         </AnimatePresence>
 
     )
