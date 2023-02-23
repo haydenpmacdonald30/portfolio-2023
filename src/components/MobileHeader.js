@@ -22,8 +22,8 @@ const Header = () => {
                             </Link>  
                         </li>
                         <li className='nav-item'>
-                            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                                About
+                            <Link to={{ pathname: "https://github.com/haydenpmacdonald30" }} target="_blank" className="nav-links" onClick={closeMobileMenu}>
+                                GitHub
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -111,7 +111,7 @@ const Nav = styled.div`
       }
     
       .nav-menu.active {
-        background-color: rgb(248, 247, 242);
+        background-color: white;
         border: 0.342305px solid rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(27.3844px);
         left: 0;
@@ -126,6 +126,7 @@ const Nav = styled.div`
       
       ul, li {
           list-style: none;
+          color: black;
       }
       .nav-links {
         text-align: center;
@@ -135,9 +136,10 @@ const Nav = styled.div`
       }
     
       .nav-links:hover {
-        background-color: rgb(248, 247, 242);
+        border-style: solid;
+        padding-bottom: 20px;
         color: #242424;
-        border-radius: 0;
+        border-radius: 20px;
       }
     
       .navbar-logo {
